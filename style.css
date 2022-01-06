@@ -7,6 +7,8 @@ body {
   font-family: "Lobster", cursive;
   font-family: "Yeseva One", cursive;
   font-family: "Poppins", sans-serif;
+}
+section {
   padding: 0px 10%;
 }
 a {
@@ -16,13 +18,23 @@ a {
   display: flex;
 }
 .py-50 {
-  padding: 50px 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .mt-20 {
   margin-top: 20px;
 }
 .w-50 {
   max-width: 50%;
+}
+.w-32 {
+  width: 32%;
+}
+.w-64 {
+  width: 64%;
+}
+.w-100 {
+  width: 100%;
 }
 .text-gray {
   color: #3e3e3e;
@@ -54,6 +66,10 @@ a {
   text-align: center;
   margin: 30px 0px;
 }
+.section-heading {
+  font-size: 36px;
+  color: #333;
+}
 .hero-content {
   max-width: 471px;
 }
@@ -82,8 +98,18 @@ a {
 .bg-yellow {
   background: #fff4d6;
 }
-.missions {
+.missions,
+.about,
+.community,
+.contact {
   justify-content: space-between;
+}
+.about-section {
+  background-image: url(./images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: 50px bottom;
+
+  background-size: 10%;
 }
 .mission-card {
   width: 30%;
@@ -101,4 +127,42 @@ a {
 .mission-content h4 {
   font-size: 24px;
   margin-bottom: 10px;
+}
+.community-section {
+  background-image: url(./images/shapes/shape-6.png);
+  background-repeat: no-repeat;
+  background-position: 95% bottom;
+
+  background-size: 10%;
+}
+.contact {
+  align-items: center;
+}
+
+.contact-form {
+  padding: 50px;
+  border-radius: 30px;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+}
+.footer {
+  text-align: center;
+  background-color: #0b0d17;
+}
+.footer-text {
+  font-size: 36px;
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+.footer p {
+  color: #d9dbe1;
+  font-size: 14px;
 }
