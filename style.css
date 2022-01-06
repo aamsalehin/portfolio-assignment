@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lobster", cursive;
+  font-family: "Yeseva One", cursive;
+  font-family: "Poppins", sans-serif;
+  padding: 0px 10%;
+}
+a {
+  text-decoration: none;
+}
+.d-flex {
+  display: flex;
+}
+.py-50 {
+  padding: 50px 0px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.w-50 {
+  max-width: 50%;
+}
+.text-gray {
+  color: #3e3e3e;
+  font-size: 18px;
+  font-weight: 400;
+}
+.text-small {
+  color: #434343;
+  font-size: 16px;
+  font-weight: 400;
+}
+.text-orange {
+  color: #ffad5a;
+}
+.link-button {
+  color: #fff;
+  background-color: #ff5959;
+  padding: 10px 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.section-title {
+  color: #13103a;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin: 30px 0px;
+}
+.hero-content {
+  max-width: 471px;
+}
+.hero-heading {
+  padding-left: 10px;
+  border-left: 4px solid #ff5959;
+  margin: 30px 0px 20px 0px;
+}
+.hero-content h2 {
+  font-family: "Yeseva One", cursive;
+  font-weight: 400;
+  font-size: 60px;
+}
+
+.hero-image img {
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+.bg-aqua {
+  background: rgba(79, 157, 166, 0.1);
+}
+.bg-pink {
+  background: rgba(255, 89, 89, 0.1);
+}
+.bg-yellow {
+  background: #fff4d6;
+}
+.missions {
+  justify-content: space-between;
+}
+.mission-card {
+  width: 30%;
+  padding: 16px 32px 46px 16px;
+  border-radius: 26px;
+}
+.mission-ilst {
+  height: 140px;
+  width: 140px;
+}
+
+.mission-ilst img {
+  width: 100%;
+}
+.mission-content h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
